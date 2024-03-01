@@ -97,20 +97,20 @@ for each_color in colors:
 
 # Happy Birthday message
 
-def tulis(pesan, pos):
+def tulis(keterer, pos):
     x,y=pos
     pen.penup()
     pen.goto(x,y)
     pen.color('red')
-    style=('Stencil Std', ukuranfont, 'italic')
+    style=('Stencil Std', 14, 'italic')
     pen.write(pesan, font=style)
     
-def pesan(pesan, pos):
+def pesan(letesere, pos):
     x,y=pos
     pen.penup()
     pen.goto(x,y)
     pen.color('white')
-    style=('Stencil Std', ukuranfont, 'italic')
+    style=('Stencil Std', 14, 'italic')
     pen.write(pesan, font=style)
 
 tulis('H',(-67.9,95))
